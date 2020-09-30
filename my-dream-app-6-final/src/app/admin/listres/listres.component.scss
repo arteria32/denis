@@ -1,0 +1,62 @@
+.conteiner{
+  width: 100%;
+  height: 100%;
+  background: #232532;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.search-bar{
+  padding: 2%;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 80%;
+  height: 60px;
+ }
+
+.ButSearch{
+  margin-left: auto;
+  padding: 2%;
+  background: #303549;;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+}
+
+.namelist{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.Nameline{
+  height: 45px;
+  color: #FFFFFF;
+  outline: none;
+  border: none;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background: #272A38;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Nameline:hover{
+  background: rgba(0, 137, 255, 0.5);
+}
+.OnLine{
+  background: rgba(0, 137, 255, 0.5);
+}
+.imgres{
+  display: flex;
+  align-items: center;
+}
